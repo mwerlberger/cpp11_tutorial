@@ -28,7 +28,6 @@ void testClass()
   std::cout << "derived_i:  " << derived_i.a() << ", " << derived_i.b() << std::endl;
   std::cout << "derived_d:  " << derived_d.a() << ", " << derived_d.b() << std::endl;
   std::cout << "derived_id: " << derived_id.a() << ", " << derived_id.b() << std::endl;
-
 }
 
 int main(int /*argc*/, char** /*argv*/)

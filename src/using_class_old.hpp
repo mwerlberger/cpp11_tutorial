@@ -35,6 +35,9 @@ protected:
   std::int32_t a_;
   double b_;
 
+private:
+  UsingBaseOld(UsingBaseOld&); // not defined copy operator
+  UsingBaseOld& operator=(const UsingBaseOld&); // not defined asignment operator
 };
 
 

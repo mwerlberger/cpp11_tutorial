@@ -10,6 +10,9 @@ public:
   UsingBase() = default;
   virtual ~UsingBase() = default;
 
+  UsingBase(UsingBase&) = delete; // prefere delete over undefined
+  UsingBase& operator=(const UsingBase&) = delete;
+
   UsingBase(std::int32_t a)
     : a_(a)
   {
@@ -47,6 +50,10 @@ public:
     a_ = a;
     b_ = b;
   }
+
+
+  // what about asignment and copy operator?
+
 
 };
 
