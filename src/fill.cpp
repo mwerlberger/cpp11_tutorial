@@ -56,7 +56,8 @@ int main(int /*argc*/, char** /*argv*/)
     //--------------------------------------------------------------------------
     // you know about array?
     std::array<std::uint8_t, length> arr;
-    std::fill(arr.begin(), arr.end(), 128);
+    std::copy(pixels_8u, pixels_8u+length, arr.begin());
+
     std::cout << "array:" << std::endl;
     for (const auto& v : arr)
     {
