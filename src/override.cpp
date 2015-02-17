@@ -3,6 +3,7 @@
 #include <assert.h>
 #include <cstdint>
 #include <iostream>
+#include <memory>
 
 #include "override_class.hpp"
 #include "override_class_old.hpp"

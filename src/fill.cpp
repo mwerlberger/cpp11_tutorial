@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <functional>
 #include <array>
+#include <cstring>
 
 #include "helpers.hpp"
 

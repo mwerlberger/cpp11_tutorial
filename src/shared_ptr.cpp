@@ -2,6 +2,7 @@
 #include <assert.h>
 #include <cstdint>
 #include <iostream>
+#include <memory>
 
 int main(int /*argc*/, char** /*argv*/)
 {
