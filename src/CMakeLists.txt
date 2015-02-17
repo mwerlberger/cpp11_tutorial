@@ -7,3 +7,4 @@ add_executable(cpp11_tutorial_override override.cpp override_class.hpp override_
 add_executable(cpp11_tutorial_range_based_for_loop range_based_for_loop.cpp)
 add_executable(cpp11_tutorial_lambda lambda.cpp)
 add_executable(cpp11_tutorial_fill fill.cpp)
+add_executable(cpp11_tutorial_async async.cpp)
