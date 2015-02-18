@@ -7,8 +7,6 @@
 #include <array>
 #include <cstring>
 
-#include "helpers.hpp"
-
 //==============================================================================
 int main(int /*argc*/, char** /*argv*/)
 {
