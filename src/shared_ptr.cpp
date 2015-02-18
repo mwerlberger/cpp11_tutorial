@@ -4,6 +4,18 @@
 #include <iostream>
 #include <memory>
 
+
+class A
+{
+public:
+  A() = delete;
+  ~A() = default;
+
+
+private:
+
+};
+
 int main(int /*argc*/, char** /*argv*/)
 {
   try

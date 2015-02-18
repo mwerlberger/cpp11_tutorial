@@ -27,7 +27,7 @@ public:
   C() = default;
   virtual ~C() = default;
 
-  virtual std::string get() override {return std::string("C");}
+  virtual std::string get() final {return std::string("C");}
 };
 
 

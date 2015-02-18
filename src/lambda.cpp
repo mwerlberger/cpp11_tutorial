@@ -5,8 +5,6 @@
 #include <algorithm>
 #include <functional>
 
-#include "helpers.hpp"
-
 //==============================================================================
 int main(int /*argc*/, char** /*argv*/)
 {
