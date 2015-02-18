@@ -2,6 +2,7 @@ add_executable(cpp11_tutorial_dummy main.cpp)
 
 add_executable(cpp11_tutorial_auto auto.cpp)
 add_executable(cpp11_tutorial_shared_ptr shared_ptr.cpp)
+add_executable(cpp11_tutorial_enums enums.cpp)
 add_executable(cpp11_tutorial_using using.cpp using_class.hpp using_class_old.hpp)
 add_executable(cpp11_tutorial_override override.cpp override_class.hpp override_class_old.hpp)
 add_executable(cpp11_tutorial_delegation delegation.cpp)
